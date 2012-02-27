@@ -1,0 +1,10 @@
+Se analizó el archivo ejemplo2:
+Con el método de búsqueda: ba
+Estado final encontrado a una profundidad de: 18
+
+Se utilizaron 26442 nodos
+
+Se utilizaron las siguientes acciones:
+['A', 'I', 'AB', 'D', 'AB', 'I', 'A', 'A', 'D', 'D', 'AB', 'I', 'I', 'A', 'D', 'D', 'AB', 'AB']
+
+La ejecución tomó 0.959175 segundos

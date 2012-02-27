@@ -1,0 +1,11 @@
+Se analizó el archivo Puzzle.py:
+Con el método de búsqueda: ae
+Maximo local encontrado a una profundidad de: 70
+
+Con un costo de 70 
+
+[1, 2, 3, 4, 5, 6, 7, 8, 0]
+
+Con las siguientes acciones: ['I', 'A', 'D', 'D', 'AB', 'AB', 'I', 'I', 'A', 'A', 'D', 'D', 'AB', 'AB', 'I', 'I', 'A', 'D', 'AB', 'D', 'A', 'A', 'I', 'AB', 'D', 'AB', 'I', 'A', 'A', 'D', 'AB', 'I', 'I', 'AB', 'D', 'D', 'A', 'I', 'I', 'AB', 'D', 'A', 'I', 'AB', 'D', 'D', 'A', 'I', 'AB', 'I', 'A', 'D', 'D', 'AB', 'I', 'A', 'D', 'AB', 'I', 'I', 'A', 'D', 'D', 'AB', 'I', 'A', 'I', 'AB', 'D', 'D']
+
+La ejecución tomó 2.076690 segundos

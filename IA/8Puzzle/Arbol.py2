@@ -1,0 +1,84 @@
+class Nodo:
+
+	#Propiedad Estado
+	def get_Estado(self):
+		return self.__estado
+
+	def set_Estado(self, estado):
+		self.__estado = estado
+	
+	estado = property(get_Estado, set_Estado)
+
+	#Propiedad Padre
+	def get_Padre(self):
+		return self.__padre
+
+	def set_Padre(self, padre):
+		self.__padre = padre
+	
+	padre = property(get_Padre, set_Padre)
+
+	#Propiedad Hijos
+	def get_Hijos(self):
+		return self.__hijos
+
+	def set_Hijos(self, hijos):
+		self.__hijos = hijos
+	
+	hijos = property(get_Hijos, set_Hijos)
+
+	#Propiedad Accion
+	def get_Accion(self):
+		return self.__accion
+
+	def set_Accion(self, accion):
+		self.__accion = accion
+	
+	padre = property(get_Accion, set_Accion)
+
+	#Constructor de clase
+	def __init__(self,estado,padre,hijos,accion):
+		self.padre = padre
+		self.estado = estado
+		self.hijos = hijos
+		self.accion = accion
+
+class Arbol:
+
+	#Propiedad Estado Inicial
+	def __get_EstadoInicial(self):
+		return self.__EstadoInicial
+
+	def __set_EstadoInicial(self, estadoInicial):
+		self.__EstadoInicial = estadoInicial
+	
+	estadoInicial = property(__get_EstadoInicial, __set_EstadoInicial)
+
+	#Propiedad Estado Final
+	def __get_EstadoFinal(self):
+		return self.__EstadoFinal
+
+	def __set_EstadoFinal(self, estadoFinal):
+		self.__EstadoFinal = estadoFinal
+	
+	estadoFinal = property(__get_EstadoFinal, __set_EstadoFinal)
+
+	#Propiedad Estados revisados
+	def __get_EstadosRevisados(self):
+		return self.__EstadosRevisados
+
+	def __set_EstadosPendientes(self, estadosRevisados):
+		self.__EstadosRevisados = estadosRevisados
+	
+	estadosRevisados = property(__get_EstadosRevisados, __set_EstadosRevisados)
+
+	
+	#Propiedad Estados pendientes por revisar
+	def __get_EstadosPendientes(self):
+		return self.__EstadosPendientes
+
+	def __set_EstadosPendientes(self, estadosPendientes):
+		self.__EstadosPendientes = estadosPendientes
+	
+	estadosPendientes = property(__get_EstadosPendientes, __set_EstadosPendientes)
+
